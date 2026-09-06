@@ -2,6 +2,7 @@ import "server-only";
 
 import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/isConfigured";
+import type { SubscriptionStatus } from "@/lib/supabase/database.types";
 
 export type AdminStats = {
   households: number;
@@ -14,6 +15,29 @@ export type AdminStats = {
   listsCompleted: number;
   listsArchived: number;
   newUsers7d: number;
+  subscriptionsPaid: number;
+  subscriptionsComped: number;
+  subscriptionsTrialing: number;
+  subscriptionsLapsed: number;
+  subscriptionsExpiredOrRevoked: number;
+};
+
+export type AdminSubscriptionRow = {
+  householdId: string;
+  householdName: string;
+  ownerPhone: string;
+  ownerName: string | null;
+  status: SubscriptionStatus;
+  appleLinked: boolean;
+  periodEnd: string | null;
+  updatedAt: string;
+};
+
+export type AdminUserRow = {
+  id: string;
+  displayName: string | null;
+  phoneNumber: string;
+  createdAt: string;
 };
 
 /** Calls admin_get_stats() — see that migration for why this can see
@@ -41,5 +65,52 @@ export async function getAdminStats(): Promise<AdminStats | null> {
     listsCompleted: row.lists_completed,
     listsArchived: row.lists_archived,
     newUsers7d: row.new_users_7d,
+    subscriptionsPaid: row.subscriptions_paid,
+    subscriptionsComped: row.subscriptions_comped,
+    subscriptionsTrialing: row.subscriptions_trialing,
+    subscriptionsLapsed: row.subscriptions_lapsed,
+    subscriptionsExpiredOrRevoked: row.subscriptions_expired_or_revoked,
   };
+}
+
+/** Every household that has ever left the free trial — subscribed,
+ * lapsed, expired, revoked, or was manually comped — newest change
+ * first. There is no per-transaction amount on file (Apple's status
+ * callback never carries one), so `appleLinked` is what the admin page
+ * uses to show the nominal listed price versus "comped". */
+export async function getAdminRecentSubscriptions(): Promise<AdminSubscriptionRow[]> {
+  if (!isSupabaseConfigured()) return [];
+
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("admin_list_recent_subscriptions", {
+    p_limit: 20,
+  });
+  if (error || !data) return [];
+
+  return data.map((row) => ({
+    householdId: row.household_id,
+    householdName: row.household_name,
+    ownerPhone: row.owner_phone,
+    ownerName: row.owner_name,
+    status: row.subscription_status,
+    appleLinked: row.apple_linked,
+    periodEnd: row.period_end,
+    updatedAt: row.updated_at,
+  }));
+}
+
+/** Most recently created accounts, newest first. */
+export async function getAdminRecentUsers(): Promise<AdminUserRow[]> {
+  if (!isSupabaseConfigured()) return [];
+
+  const supabase = await createClient();
+  const { data, error } = await supabase.rpc("admin_list_recent_users", { p_limit: 20 });
+  if (error || !data) return [];
+
+  return data.map((row) => ({
+    id: row.id,
+    displayName: row.display_name,
+    phoneNumber: row.phone_number,
+    createdAt: row.created_at,
+  }));
 }

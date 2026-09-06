@@ -560,6 +560,33 @@ export interface Database {
           lists_completed: number;
           lists_archived: number;
           new_users_7d: number;
+          subscriptions_paid: number;
+          subscriptions_comped: number;
+          subscriptions_trialing: number;
+          subscriptions_lapsed: number;
+          subscriptions_expired_or_revoked: number;
+        }[];
+      };
+      admin_list_recent_subscriptions: {
+        Args: { p_limit?: number };
+        Returns: {
+          household_id: string;
+          household_name: string;
+          owner_phone: string;
+          owner_name: string | null;
+          subscription_status: SubscriptionStatus;
+          apple_linked: boolean;
+          period_end: string | null;
+          updated_at: string;
+        }[];
+      };
+      admin_list_recent_users: {
+        Args: { p_limit?: number };
+        Returns: {
+          id: string;
+          display_name: string | null;
+          phone_number: string;
+          created_at: string;
         }[];
       };
     };
