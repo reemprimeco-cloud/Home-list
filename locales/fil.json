@@ -99,7 +99,8 @@
     "support": "Suporta",
     "subscription": "Subscription",
     "subscriptionActive": "Aktibo",
-    "manageSubscription": "Pamahalaan"
+    "manageSubscription": "Pamahalaan",
+    "guide": "Paano Gamitin"
   },
   "members": {
     "title": "Mga tao",
@@ -300,5 +301,15 @@
     "restoreNotFound": "Walang nakitang nakaraang bili",
     "success": "Tapos na! Salamat sa pag-subscribe.",
     "continue": "Magpatuloy"
+  },
+  "guide": {
+    "title": "Paano gamitin ang {name}",
+    "step1": "I-invite ang iyong sambahayan: pumunta sa Settings → People para magdagdag ng miyembro ng pamilya, at i-invite ang iyong katulong nang hiwalay bilang Worker.",
+    "step2": "Gagawa ng listahan ang iyong katulong: mag-browse sila ayon sa kategorya, maghanap, o kumuha ng larawan ng anumang wala sa katalogo, tapos ipadala ito sa iyo.",
+    "step3": "May abiso ka: buksan ang listahan mula sa Notifications o sa home screen sa sandaling maipadala ito.",
+    "step4": "Markahan ang mga bagay habang namimili, o markahan ang mga wala — magdagdag ng tala sa anumang item kung kailangan.",
+    "step5": "Tapusin ang listahan kapag tapos na lahat. Mamarkahan itong tapos na at awtomatikong mawawala sa home screen.",
+    "step6": "Paggawa ng sarili mong listahan: pindutin ang “My Own List” sa home screen para mamili at magpadala ng listahan nang mag-isa, nang walang katulong.",
+    "step7": "Pamahalaan ang iyong subscription anumang oras mula sa Settings → Subscription."
   }
 }

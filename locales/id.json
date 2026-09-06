@@ -99,7 +99,8 @@
     "support": "Dukungan",
     "subscription": "Langganan",
     "subscriptionActive": "Aktif",
-    "manageSubscription": "Kelola"
+    "manageSubscription": "Kelola",
+    "guide": "Cara Penggunaan"
   },
   "members": {
     "title": "Orang",
@@ -300,5 +301,15 @@
     "restoreNotFound": "Tidak ada pembelian sebelumnya yang ditemukan",
     "success": "Selesai! Terima kasih telah berlangganan.",
     "continue": "Lanjutkan"
+  },
+  "guide": {
+    "title": "Cara menggunakan {name}",
+    "step1": "Undang rumah tangga Anda: buka Pengaturan → Orang untuk menambah anggota keluarga, dan undang asisten Anda secara terpisah sebagai Pekerja.",
+    "step2": "Asisten Anda membuat daftar: mereka menelusuri berdasarkan kategori, mencari, atau memotret apa pun yang tidak ada di katalog, lalu mengirimkannya kepada Anda.",
+    "step3": "Anda mendapat notifikasi: buka daftar dari Notifikasi atau layar utama begitu daftar dikirim.",
+    "step4": "Centang item saat berbelanja, atau tandai yang tidak tersedia — tambahkan catatan pada item mana pun jika perlu.",
+    "step5": "Selesaikan daftar setelah semuanya ditangani. Daftar ditandai selesai dan otomatis hilang dari layar utama Anda.",
+    "step6": "Membuat daftar sendiri: ketuk “Daftar Saya Sendiri” di layar utama untuk berbelanja dan mengirim daftar sendiri, tanpa asisten.",
+    "step7": "Kelola langganan Anda kapan saja dari Pengaturan → Langganan."
   }
 }

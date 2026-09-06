@@ -99,7 +99,8 @@
     "support": "Support",
     "subscription": "Subscription",
     "subscriptionActive": "Active",
-    "manageSubscription": "Manage"
+    "manageSubscription": "Manage",
+    "guide": "How to use"
   },
   "members": {
     "title": "People",
@@ -300,5 +301,15 @@
     "restoreNotFound": "No previous purchase found",
     "success": "You're all set! Thanks for subscribing.",
     "continue": "Continue"
+  },
+  "guide": {
+    "title": "How to use {name}",
+    "step1": "Invite your household: go to Settings → People to add family members, and invite your helper separately as a Worker.",
+    "step2": "Your helper builds a list: they browse by category, search, or take a photo of anything not in the catalog, then send it to you.",
+    "step3": "You get notified: open the list from Notifications or the home screen the moment it's sent.",
+    "step4": "Check items off as you shop, or mark any that aren't available — add a note on any item if you need to.",
+    "step5": "Finish the list once everything's handled. It's marked done and clears off your home screen automatically.",
+    "step6": "Building your own list: tap “My Own List” on the home screen to shop and send a list yourself, without a helper.",
+    "step7": "Manage your subscription anytime from Settings → Subscription."
   }
 }

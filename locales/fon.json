@@ -99,7 +99,8 @@
     "support": "Alɔdo",
     "subscription": "Abonema",
     "subscriptionActive": "É ɖò azɔ̌ wa wɛ",
-    "manageSubscription": "Ðo tɛn"
+    "manageSubscription": "Ðo tɛn",
+    "guide": "Nùkplɔnkplɔn zinzan tɔn"
   },
   "members": {
     "title": "Mɛ lɛ́",
@@ -300,5 +301,15 @@
     "restoreNotFound": "Nǔxɔxɔ ɖěvo kú ɖò fí ǎ",
     "success": "É fó! Mǐ dó gbè nú we ɖó a bló abonema ɔ́.",
     "continue": "Yì nukɔn"
+  },
+  "guide": {
+    "title": "Nùkplɔnkplɔn dó {name} zinzan jí",
+    "step1": "Ylɔ mɛ ɖò xwé towe mɛ: yì Ayidonu lɛ́ → Mɛ lɛ́ ɖò xwé mɛ dó ylɔ hɛnnumɔ lɛ́, bo lɛ́ ylɔ azɔ̌watɔ́ towe éɖéé dó nyí Azɔ̌watɔ́.",
+    "step2": "Azɔ̌watɔ́ towe nɔ bló távo: é nɔ kpɔ́n ɖò gbɛ̌ta lɛ́ jí, nɔ ba nǔ, alǒ nɔ ɖe fɔto nú nǔ e kú ɖò catalogue mɛ ǎ lɛ́, bo sɛ́n ɔ nú we.",
+    "step3": "É ná ɖexlɛ́ we: hun távo ɔ sín Wɛnjlɛ lɛ́ alǒ sín xwé aximɛ ɔ hwenu e é sɛ́n é.",
+    "step4": "Ðexlɛ́ nǔ e a xɔ lɛ́ hwenu e a ɖò axi wa wɛ é, alǒ ɖexlɛ́ nǔ e kú ɖò fí ǎ lɛ́ — ɖo xó dó nǔ ɖé jí nú a hudo é.",
+    "step5": "Fó távo ɔ hwenu e nǔ bǐ wa vɔ é. È ná ɖexlɛ́ ɖɔ é fó bo ná gosín xwé aximɛ towe jí éɖéé.",
+    "step6": "Bló távo towe éɖéé tɔn: xò “Távo ce éɖéé tɔn” ɖò xwé aximɛ jí bo ná xɔ nǔ bo sɛ́n távo éɖéé, azɔ̌watɔ́ ɖě ma ɖó ǎ.",
+    "step7": "A sixu kpɔ́n abonema towe hwebǐnu sín Ayidonu lɛ́ → Abonema."
   }
 }

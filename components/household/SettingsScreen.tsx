@@ -137,6 +137,15 @@ export function SettingsScreen({
             </span>
           </Link>
           <Link
+            href="/home/settings/guide"
+            className="flex min-h-14 items-center justify-between border-b border-line px-4 active:bg-surface-2"
+          >
+            <span className="hl-body text-ink">{t("settings.guide")}</span>
+            <span aria-hidden className="rtl:-scale-x-100 text-ink-muted">
+              ›
+            </span>
+          </Link>
+          <Link
             href="/home/settings/about"
             className="flex min-h-14 items-center justify-between border-b border-line px-4 active:bg-surface-2"
           >

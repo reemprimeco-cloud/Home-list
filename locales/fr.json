@@ -99,7 +99,8 @@
     "support": "Assistance",
     "subscription": "Abonnement",
     "subscriptionActive": "Actif",
-    "manageSubscription": "Gérer"
+    "manageSubscription": "Gérer",
+    "guide": "Mode d'emploi"
   },
   "members": {
     "title": "Personnes",
@@ -300,5 +301,15 @@
     "restoreNotFound": "Aucun achat précédent trouvé",
     "success": "C'est fait ! Merci pour votre abonnement.",
     "continue": "Continuer"
+  },
+  "guide": {
+    "title": "Comment utiliser {name}",
+    "step1": "Invitez votre foyer : allez dans Réglages → Personnes pour ajouter des membres de la famille, et invitez votre aide séparément en tant qu'ouvrier.",
+    "step2": "Votre aide crée une liste : elle parcourt par catégorie, cherche, ou prend une photo de tout ce qui n'est pas dans le catalogue, puis vous l'envoie.",
+    "step3": "Vous recevez une notification : ouvrez la liste depuis Notifications ou l'écran d'accueil dès son envoi.",
+    "step4": "Cochez les articles pendant vos achats, ou marquez ceux indisponibles — ajoutez une note sur un article si besoin.",
+    "step5": "Terminez la liste une fois tout géré. Elle est marquée terminée et disparaît automatiquement de votre écran d'accueil.",
+    "step6": "Créer votre propre liste : appuyez sur «Ma propre liste» sur l'écran d'accueil pour faire vos achats et envoyer une liste vous-même, sans aide.",
+    "step7": "Gérez votre abonnement à tout moment depuis Réglages → Abonnement."
   }
 }

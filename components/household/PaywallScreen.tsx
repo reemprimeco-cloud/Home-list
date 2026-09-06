@@ -3,7 +3,9 @@
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
+import { GuideSteps } from "@/components/household/GuideScreen";
 import { Card, ErrorText, PrimaryButton, SecondaryButton, Screen } from "@/components/ui/Primitives";
+import { branding } from "@/lib/branding";
 import {
   isNativeApp,
   onNativeIapProduct,
@@ -100,6 +102,17 @@ export function PaywallScreen({
         <Card>
           <p className="hl-heading text-ink">{t("paywall.success")}</p>
         </Card>
+        {/* Shown only right after subscribing (not on an unrelated visit
+            to an already-active household) — the moment someone most
+            wants a walkthrough of what they just paid for. */}
+        {success ? (
+          <>
+            <h2 className="hl-label text-ink-muted">
+              {t("guide.title", { name: branding.name })}
+            </h2>
+            <GuideSteps />
+          </>
+        ) : null}
         <PrimaryButton onClick={() => router.push("/home/dashboard")}>
           {t("paywall.continue")}
         </PrimaryButton>
