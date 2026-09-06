@@ -100,7 +100,8 @@
     "subscription": "Langganan",
     "subscriptionActive": "Aktif",
     "manageSubscription": "Kelola",
-    "guide": "Cara Penggunaan"
+    "guide": "Cara Penggunaan",
+    "admin": "Admin"
   },
   "members": {
     "title": "Orang",

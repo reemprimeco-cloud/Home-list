@@ -28,6 +28,7 @@ export function SettingsScreen({
   subscriptionHasAccess,
   trialActive,
   trialDaysLeft,
+  isAdmin,
 }: {
   phoneNumber: string;
   displayName: string | null;
@@ -37,6 +38,7 @@ export function SettingsScreen({
   subscriptionHasAccess: boolean;
   trialActive: boolean;
   trialDaysLeft: number;
+  isAdmin: boolean;
 }) {
   const router = useRouter();
   const { t } = useLocale();
@@ -210,6 +212,24 @@ export function SettingsScreen({
           ) : null}
         </Card>
       </section>
+
+      {/* Visible only to the one operator account (lib/admin/guard.ts) —
+          the route has no other way in: no address bar inside the
+          native shell, and deliberately no link anyone else would see. */}
+      {isAdmin ? (
+        <section className="space-y-2">
+          <h2 className="hl-label text-ink-muted">{t("settings.admin")}</h2>
+          <Link
+            href="/admin"
+            className="flex min-h-14 items-center justify-between rounded-lg border border-line bg-surface px-4 shadow-sm active:bg-surface-2"
+          >
+            <span className="hl-body text-ink">{t("settings.admin")}</span>
+            <span aria-hidden className="rtl:-scale-x-100 text-ink-muted">
+              ›
+            </span>
+          </Link>
+        </section>
+      ) : null}
 
       <button
         type="button"

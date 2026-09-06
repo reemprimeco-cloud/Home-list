@@ -100,7 +100,8 @@
     "subscription": "सदस्यता",
     "subscriptionActive": "सक्रिय",
     "manageSubscription": "प्रबंधित करें",
-    "guide": "उपयोग कैसे करें"
+    "guide": "उपयोग कैसे करें",
+    "admin": "एडमिन"
   },
   "members": {
     "title": "लोग",

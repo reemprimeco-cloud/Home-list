@@ -100,7 +100,8 @@
     "subscription": "Subscription",
     "subscriptionActive": "Active",
     "manageSubscription": "Manage",
-    "guide": "How to use"
+    "guide": "How to use",
+    "admin": "Admin"
   },
   "members": {
     "title": "People",

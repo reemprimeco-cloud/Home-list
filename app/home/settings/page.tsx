@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 
 import { SettingsScreen } from "@/components/household/SettingsScreen";
 import { getServerUserProfile } from "@/lib/auth/session";
+import { isAdminPhone } from "@/lib/admin/guard";
 import { requireHouseholdAccess } from "@/lib/household/guard";
 import { getHouseholdMembers } from "@/lib/household/queries";
 import { computeTrialState, getHouseholdSubscription, hasAccess } from "@/lib/subscription/queries";
@@ -36,6 +37,7 @@ export default async function SettingsPage() {
       subscriptionHasAccess={subscription ? hasAccess(subscription) : false}
       trialActive={trial.active}
       trialDaysLeft={trial.daysLeft}
+      isAdmin={isAdminPhone(profile.phone_number)}
     />
   );
 }

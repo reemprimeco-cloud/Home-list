@@ -15,12 +15,20 @@ import { getServerUserProfile } from "@/lib/auth/session";
  */
 const ADMIN_PHONE_NUMBERS = ["96565068000"];
 
+/** Whether a phone number is the admin's — also used by SettingsScreen to
+ * decide whether to show a link into /admin at all, since the route has
+ * no other way to be found: no in-app browser address bar to type it
+ * into, and (deliberately) no nav item anyone else would ever see. */
+export function isAdminPhone(phoneNumber: string): boolean {
+  return ADMIN_PHONE_NUMBERS.includes(phoneNumber);
+}
+
 /** Redirects anyone but the admin straight back to /login, so the route
  * doesn't even hint at what it contains to someone who stumbles onto it
  * signed out or signed in as an ordinary user. */
 export async function requireAdminAccess() {
   const profile = await getServerUserProfile();
-  if (!profile || !ADMIN_PHONE_NUMBERS.includes(profile.phone_number)) {
+  if (!profile || !isAdminPhone(profile.phone_number)) {
     redirect("/login");
   }
   return profile;

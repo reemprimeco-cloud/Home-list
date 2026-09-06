@@ -100,7 +100,8 @@
     "subscription": "ምዝገባ",
     "subscriptionActive": "ንቁ",
     "manageSubscription": "አስተዳድር",
-    "guide": "አጠቃቀም መመሪያ"
+    "guide": "አጠቃቀም መመሪያ",
+    "admin": "አስተዳዳሪ"
   },
   "members": {
     "title": "ሰዎች",

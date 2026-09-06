@@ -100,7 +100,8 @@
     "subscription": "Abonnement",
     "subscriptionActive": "Actif",
     "manageSubscription": "Gérer",
-    "guide": "Mode d'emploi"
+    "guide": "Mode d'emploi",
+    "admin": "Administration"
   },
   "members": {
     "title": "Personnes",

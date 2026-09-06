@@ -100,7 +100,8 @@
     "subscription": "الاشتراك",
     "subscriptionActive": "نشط",
     "manageSubscription": "إدارة",
-    "guide": "طريقة الاستخدام"
+    "guide": "طريقة الاستخدام",
+    "admin": "لوحة التحكم"
   },
   "members": {
     "title": "الأشخاص",
