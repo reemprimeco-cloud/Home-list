@@ -1,0 +1,24 @@
+name: Keep production warm
+
+# WHY THIS EXISTS: the app runs on Vercel's Hobby plan, whose serverless
+# functions go cold after a few minutes of no traffic — with the low
+# request volume this app currently sees, most visits pay a multi-second
+# cold-start penalty ("the app feels slow"). Hobby-tier Vercel Cron Jobs
+# only fire once a day, far too infrequent to keep a function warm, so
+# this repo-native schedule pings a DB-free health endpoint instead.
+#
+# Scheduled workflows only ever run the copy of this file that lives on
+# the repository's default branch, regardless of what other branches
+# contain — keep that in mind if this ever needs editing from elsewhere.
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping health endpoint
+        run: curl --fail --silent --show-error --max-time 20 https://machla.reemora.app/api/health
