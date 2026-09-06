@@ -191,8 +191,15 @@ for (const { file, targets, scope } of uploads) {
   const extension = path.extname(file).toLowerCase();
   const objectPath = `${path.basename(file, extension)}${extension}`;
 
+  // A year, not Supabase's 1-hour default: these are tiny, static product
+  // photos that only ever change by someone deliberately re-running this
+  // script (a real photo replacing generated artwork, say) — `upsert`
+  // above means a re-run still overwrites the object under the same
+  // name, so a replacement is never stuck behind a stale cached copy for
+  // longer than a browser or CDN happens to hold it.
   const { error: uploadError } = await supabase.storage.from(BUCKET).upload(objectPath, body, {
     contentType: CONTENT_TYPES[extension],
+    cacheControl: "31536000",
     upsert: true,
   });
 
