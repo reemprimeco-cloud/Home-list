@@ -1369,6 +1369,219 @@
     },
     {
       "type": "milk_chocolate"
+    },
+    {
+      "type": "beef_steak"
+    },
+    {
+      "type": "chicken_mince"
+    },
+    {
+      "type": "chicken_wings"
+    },
+    {
+      "type": "chicken_thighs"
+    },
+    {
+      "type": "liver"
+    },
+    {
+      "type": "salmon"
+    },
+    {
+      "type": "tilapia"
+    },
+    {
+      "type": "sausages"
+    },
+    {
+      "type": "luncheon_meat"
+    },
+    {
+      "type": "calamari"
+    },
+    {
+      "type": "tortilla_bread"
+    },
+    {
+      "type": "donut"
+    },
+    {
+      "type": "bagel"
+    },
+    {
+      "type": "tandoor_bread"
+    },
+    {
+      "type": "bbq_sauce"
+    },
+    {
+      "type": "pickles"
+    },
+    {
+      "type": "olives"
+    },
+    {
+      "type": "salad_dressing"
+    },
+    {
+      "type": "pasta_sauce"
+    },
+    {
+      "type": "canned_mushrooms"
+    },
+    {
+      "type": "canned_peas"
+    },
+    {
+      "type": "date_syrup"
+    },
+    {
+      "type": "baking_soda"
+    },
+    {
+      "type": "vanilla_extract"
+    },
+    {
+      "type": "saffron"
+    },
+    {
+      "type": "bay_leaves"
+    },
+    {
+      "type": "paprika"
+    },
+    {
+      "type": "onion_powder"
+    },
+    {
+      "type": "garlic_powder"
+    },
+    {
+      "type": "coconut_milk"
+    },
+    {
+      "type": "cornstarch"
+    },
+    {
+      "type": "sesame_seeds"
+    },
+    {
+      "type": "dried_lime"
+    },
+    {
+      "type": "sumac"
+    },
+    {
+      "type": "greek_yogurt"
+    },
+    {
+      "type": "cottage_cheese"
+    },
+    {
+      "type": "cream_cheese"
+    },
+    {
+      "type": "mozzarella"
+    },
+    {
+      "type": "halloumi"
+    },
+    {
+      "type": "feta_cheese"
+    },
+    {
+      "type": "energy_drink"
+    },
+    {
+      "type": "lemonade"
+    },
+    {
+      "type": "cordial"
+    },
+    {
+      "type": "sparkling_water"
+    },
+    {
+      "type": "karak_tea"
+    },
+    {
+      "type": "grape_juice"
+    },
+    {
+      "type": "all_purpose_cleaner"
+    },
+    {
+      "type": "mop"
+    },
+    {
+      "type": "broom"
+    },
+    {
+      "type": "stain_remover"
+    },
+    {
+      "type": "disinfectant_spray"
+    },
+    {
+      "type": "mouthwash"
+    },
+    {
+      "type": "dental_floss"
+    },
+    {
+      "type": "cotton_buds"
+    },
+    {
+      "type": "wet_wipes"
+    },
+    {
+      "type": "hand_sanitizer"
+    },
+    {
+      "type": "sunscreen"
+    },
+    {
+      "type": "shaving_cream"
+    },
+    {
+      "type": "lighter"
+    },
+    {
+      "type": "storage_bags"
+    },
+    {
+      "type": "charcoal"
+    },
+    {
+      "type": "candles"
+    },
+    {
+      "type": "baby_bottle"
+    },
+    {
+      "type": "pacifier"
+    },
+    {
+      "type": "baby_cereal"
+    },
+    {
+      "type": "baby_powder"
+    },
+    {
+      "type": "baby_oil"
+    },
+    {
+      "type": "couscous"
+    },
+    {
+      "type": "green_lentils"
+    },
+    {
+      "type": "fava_beans"
+    },
+    {
+      "type": "semolina"
     }
   ]
 }
