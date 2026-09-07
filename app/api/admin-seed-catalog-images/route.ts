@@ -15,7 +15,7 @@ import { createAdminClient } from "@/lib/supabase/admin";
 const BUCKET = "product-images";
 
 const IMAGES: { naturalKey: string; sourceUrl: string }[] = [
-  { naturalKey: "milk_chocolate||", sourceUrl: "https://d8j0ntlcm91z4.cloudfront.net/user_3AGhTHKPN3FQpd6GCElZeyNv3tQ/hf_20260907_195354_87b05049-a03d-4449-9b80-fc4a3a3b69e6.png" },
+  { naturalKey: "milk_chocolate||", sourceUrl: "https://d8j0ntlcm91z4.cloudfront.net/user_3AGhTHKPN3FQpd6GCElZeyNv3tQ/hf_20260907_195938_2509bb66-2adb-421f-ab5e-67d02f9d59b1.png" },
 ];
 
 export async function GET() {
