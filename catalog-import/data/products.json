@@ -1351,6 +1351,21 @@
     },
     {
       "type": "frozen_meatballs"
+    },
+    {
+      "type": "cabbage_red"
+    },
+    {
+      "type": "frozen_mozzarella_sticks"
+    },
+    {
+      "type": "frozen_potato_wedges"
+    },
+    {
+      "type": "frozen_chicken_fillet"
+    },
+    {
+      "type": "frozen_chicken_burger"
     }
   ]
 }

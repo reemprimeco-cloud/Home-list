@@ -5111,6 +5111,114 @@
         "kufta mujamad",
         "bakso"
       ]
+    },
+    {
+      "key": "cabbage_red",
+      "category": "fruits_vegetables",
+      "unit": "pcs",
+      "icon": "🥬",
+      "names": {
+        "en": "Red Cabbage",
+        "ar": "ملفوف أحمر",
+        "hi": "लाल पत्ता गोभी",
+        "te": "ఎర్ర క్యాబేజీ",
+        "ur": "سرخ بند گوبھی",
+        "fil": "Pulang Repolyo",
+        "ne": "रातो बन्दा",
+        "id": "Kubis Ungu",
+        "si": "රතු ගෝවා"
+      },
+      "keywords": [
+        "red cabbage",
+        "purple cabbage",
+        "malfouf ahmar",
+        "kubis ungu"
+      ]
+    },
+    {
+      "key": "frozen_mozzarella_sticks",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🧀",
+      "names": {
+        "en": "Mozzarella Sticks",
+        "ar": "أصابع موزاريلا مجمدة",
+        "hi": "मोज़ेरेला स्टिक्स",
+        "te": "మొజారెల్లా స్టిక్స్",
+        "ur": "موزاریلا اسٹکس",
+        "fil": "Mozzarella Sticks",
+        "ne": "मोजारेला स्टिक्स",
+        "id": "Stik Mozzarella",
+        "si": "මොසරෙල්ලා ස්ටික්ස්"
+      },
+      "keywords": [
+        "mozzarella sticks",
+        "cheese sticks"
+      ]
+    },
+    {
+      "key": "frozen_potato_wedges",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🥔",
+      "names": {
+        "en": "Potato Wedges",
+        "ar": "بطاطس ويدجز مجمدة",
+        "hi": "पोटैटो वेजेज़",
+        "te": "పొటాటో వెడ్జెస్",
+        "ur": "پوٹیٹو ویجز",
+        "fil": "Potato Wedges",
+        "ne": "आलु वेजेज",
+        "id": "Kentang Wedges",
+        "si": "අර්තාපල් වෙජ්ස්"
+      },
+      "keywords": [
+        "potato wedges",
+        "wedges"
+      ]
+    },
+    {
+      "key": "frozen_chicken_fillet",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🍗",
+      "names": {
+        "en": "Frozen Chicken Fillet",
+        "ar": "فيليه دجاج مجمد",
+        "hi": "जमे हुए चिकन फिलेट",
+        "te": "ఫ్రోజెన్ చికెన్ ఫిల్లెట్",
+        "ur": "منجمد چکن فلیٹ",
+        "fil": "Frozen na Chicken Fillet",
+        "ne": "फ्रोजन चिकन फिलेट",
+        "id": "Fillet Ayam Beku",
+        "si": "ශීත කළ කුකුල් මස් ෆිලට්"
+      },
+      "keywords": [
+        "chicken fillet",
+        "chicken breast",
+        "dajaj fillet"
+      ]
+    },
+    {
+      "key": "frozen_chicken_burger",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🍔",
+      "names": {
+        "en": "Frozen Chicken Burger",
+        "ar": "برجر دجاج مجمد",
+        "hi": "जमे हुए चिकन बर्गर",
+        "te": "ఫ్రోజెన్ చికెన్ బర్గర్",
+        "ur": "منجمد چکن برگر",
+        "fil": "Frozen na Chicken Burger",
+        "ne": "फ्रोजन चिकन बर्गर",
+        "id": "Burger Ayam Beku",
+        "si": "ශීත කළ කුකුල් බර්ගර්"
+      },
+      "keywords": [
+        "chicken burger",
+        "burger dajaj"
+      ]
     }
   ]
 }
