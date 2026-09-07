@@ -5219,6 +5219,31 @@
         "chicken burger",
         "burger dajaj"
       ]
+    },
+    {
+      "key": "milk_chocolate",
+      "category": "dairy_eggs",
+      "unit": "l",
+      "icon": "🍫",
+      "names": {
+        "en": "Chocolate Milk",
+        "ar": "حليب بالشوكولاتة",
+        "hi": "चॉकलेट दूध",
+        "te": "చాక్లెట్ పాలు",
+        "ur": "چاکلیٹ دودھ",
+        "fil": "Gatas na Chocolate",
+        "ne": "चकलेट दूध",
+        "id": "Susu Coklat",
+        "si": "චොකලට් කිරි",
+        "am": "የቸኮሌት ወተት",
+        "fr": "Lait au chocolat"
+      },
+      "keywords": [
+        "chocolate milk",
+        "milk",
+        "haleeb shokolatah",
+        "gatas chocolate"
+      ]
     }
   ]
 }
