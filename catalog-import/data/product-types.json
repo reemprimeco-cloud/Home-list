@@ -4452,6 +4452,665 @@
         "whiskas",
         "pedigree"
       ]
+    },
+    {
+      "key": "arugula",
+      "category": "fruits_vegetables",
+      "unit": "pcs",
+      "icon": "🌿",
+      "names": {
+        "en": "Arugula",
+        "ar": "جرجير",
+        "hi": "अरुगुला",
+        "te": "అరుగుల",
+        "ur": "روکٹ سلاد",
+        "fil": "Arugula",
+        "ne": "अरुगुला",
+        "id": "Roket",
+        "si": "රොකට් කොළ"
+      },
+      "keywords": [
+        "arugula",
+        "rocket",
+        "jarjeer",
+        "roket"
+      ]
+    },
+    {
+      "key": "parsley",
+      "category": "fruits_vegetables",
+      "unit": "pcs",
+      "icon": "🌿",
+      "names": {
+        "en": "Parsley",
+        "ar": "بقدونس",
+        "hi": "अजमोद",
+        "te": "పార్స్లీ",
+        "ur": "اجمود",
+        "fil": "Perehil",
+        "ne": "अजमोद",
+        "id": "Peterseli",
+        "si": "පාස්ලි"
+      },
+      "keywords": [
+        "parsley",
+        "bagdounis",
+        "ajmod",
+        "perehil",
+        "peterseli"
+      ]
+    },
+    {
+      "key": "dill",
+      "category": "fruits_vegetables",
+      "unit": "pcs",
+      "icon": "🌿",
+      "names": {
+        "en": "Dill",
+        "ar": "شبت",
+        "hi": "सोया पत्ता",
+        "te": "సదాపా ఆకు",
+        "ur": "سویا",
+        "fil": "Dill",
+        "ne": "सुवा",
+        "id": "Adas",
+        "si": "සතකුප්පා"
+      },
+      "keywords": [
+        "dill",
+        "shabat",
+        "soya",
+        "adas"
+      ]
+    },
+    {
+      "key": "celery",
+      "category": "fruits_vegetables",
+      "unit": "pcs",
+      "icon": "🥬",
+      "names": {
+        "en": "Celery",
+        "ar": "كرفس",
+        "hi": "अजवाइन पत्ता",
+        "te": "సెలెరీ",
+        "ur": "کرفس",
+        "fil": "Kintsay",
+        "ne": "सेलेरी",
+        "id": "Seledri",
+        "si": "සැලරි"
+      },
+      "keywords": [
+        "celery",
+        "karafs",
+        "kintsay",
+        "seledri"
+      ]
+    },
+    {
+      "key": "cauliflower",
+      "category": "fruits_vegetables",
+      "unit": "kg",
+      "icon": "🥦",
+      "names": {
+        "en": "Cauliflower",
+        "ar": "قرنبيط",
+        "hi": "फूलगोभी",
+        "te": "కాలిఫ్లవర్",
+        "ur": "پھول گوبھی",
+        "fil": "Koliplor",
+        "ne": "काउली",
+        "id": "Kembang Kol",
+        "si": "මල් ගෝවා"
+      },
+      "keywords": [
+        "cauliflower",
+        "qarnabeet",
+        "phool gobhi",
+        "koliplor",
+        "kembang kol"
+      ]
+    },
+    {
+      "key": "broccoli",
+      "category": "fruits_vegetables",
+      "unit": "kg",
+      "icon": "🥦",
+      "names": {
+        "en": "Broccoli",
+        "ar": "بروكلي",
+        "hi": "ब्रोकली",
+        "te": "బ్రోకలీ",
+        "ur": "بروکلی",
+        "fil": "Broccoli",
+        "ne": "ब्रोकाउली",
+        "id": "Brokoli",
+        "si": "බ්‍රොකොලි"
+      },
+      "keywords": [
+        "broccoli",
+        "brocoli"
+      ]
+    },
+    {
+      "key": "chard",
+      "category": "fruits_vegetables",
+      "unit": "pcs",
+      "icon": "🥬",
+      "names": {
+        "en": "Swiss Chard",
+        "ar": "سلق",
+        "hi": "चार्ड साग",
+        "te": "చార్డ్ ఆకు",
+        "ur": "سلق ساگ",
+        "fil": "Chard",
+        "ne": "चार्ड साग",
+        "id": "Sayur Chard",
+        "si": "චාඩ්"
+      },
+      "keywords": [
+        "chard",
+        "silq",
+        "swiss chard"
+      ]
+    },
+    {
+      "key": "molokhia_fresh",
+      "category": "fruits_vegetables",
+      "unit": "pcs",
+      "icon": "🌿",
+      "names": {
+        "en": "Fresh Molokhia",
+        "ar": "ملوخية طازجة",
+        "hi": "मोलोखिया",
+        "te": "మొలోకియా",
+        "ur": "ملوخیہ",
+        "fil": "Molokhia",
+        "ne": "मोलोखिया",
+        "id": "Molokhia",
+        "si": "මොලොකියා"
+      },
+      "keywords": [
+        "molokhia",
+        "mulukhiyah",
+        "jute mallow",
+        "jew's mallow"
+      ]
+    },
+    {
+      "key": "green_onion",
+      "category": "fruits_vegetables",
+      "unit": "pcs",
+      "icon": "🧅",
+      "names": {
+        "en": "Green Onion",
+        "ar": "بصل أخضر",
+        "hi": "हरा प्याज़",
+        "te": "ఆకు ఉల్లిపాయ",
+        "ur": "ہری پیاز",
+        "fil": "Sibuyas na Mura",
+        "ne": "हरियो प्याज",
+        "id": "Daun Bawang",
+        "si": "ලීක්ස්"
+      },
+      "keywords": [
+        "green onion",
+        "scallion",
+        "spring onion",
+        "basal akhdar",
+        "daun bawang"
+      ]
+    },
+    {
+      "key": "okra",
+      "category": "fruits_vegetables",
+      "unit": "kg",
+      "icon": "🫛",
+      "names": {
+        "en": "Okra",
+        "ar": "بامية طازجة",
+        "hi": "भिंडी",
+        "te": "బెండకాయ",
+        "ur": "بھنڈی",
+        "fil": "Okra",
+        "ne": "भिन्डी",
+        "id": "Okra",
+        "si": "බණ්ඩක්කා"
+      },
+      "keywords": [
+        "okra",
+        "bamya",
+        "bhindi",
+        "lady finger"
+      ]
+    },
+    {
+      "key": "green_beans",
+      "category": "fruits_vegetables",
+      "unit": "kg",
+      "icon": "🫘",
+      "names": {
+        "en": "Green Beans",
+        "ar": "فاصوليا خضراء",
+        "hi": "हरी बीन्स",
+        "te": "బీన్స్",
+        "ur": "ہری پھلیاں",
+        "fil": "Sitaw",
+        "ne": "सिमी",
+        "id": "Buncis",
+        "si": "බෝංචි"
+      },
+      "keywords": [
+        "green beans",
+        "fasoulia",
+        "beans",
+        "sitaw",
+        "buncis"
+      ]
+    },
+    {
+      "key": "turnip",
+      "category": "fruits_vegetables",
+      "unit": "kg",
+      "icon": "🫜",
+      "names": {
+        "en": "Turnip",
+        "ar": "لفت",
+        "hi": "शलजम",
+        "te": "టర్నిప్",
+        "ur": "شلجم",
+        "fil": "Singkamas",
+        "ne": "सलगम",
+        "id": "Lobak Putih",
+        "si": "ටර්නිප්"
+      },
+      "keywords": [
+        "turnip",
+        "left",
+        "shalgham",
+        "singkamas"
+      ]
+    },
+    {
+      "key": "radish",
+      "category": "fruits_vegetables",
+      "unit": "kg",
+      "icon": "🫜",
+      "names": {
+        "en": "Radish",
+        "ar": "فجل",
+        "hi": "मूली",
+        "te": "ముల్లంగి",
+        "ur": "مولی",
+        "fil": "Labanos",
+        "ne": "मुला",
+        "id": "Lobak",
+        "si": "රාබු"
+      },
+      "keywords": [
+        "radish",
+        "figl",
+        "mooli",
+        "labanos",
+        "lobak"
+      ]
+    },
+    {
+      "key": "beetroot",
+      "category": "fruits_vegetables",
+      "unit": "kg",
+      "icon": "🫜",
+      "names": {
+        "en": "Beetroot",
+        "ar": "شمندر",
+        "hi": "चुकंदर",
+        "te": "బీట్రూట్",
+        "ur": "چقندر",
+        "fil": "Beets",
+        "ne": "चुकन्दर",
+        "id": "Bit",
+        "si": "බීට් රූට්"
+      },
+      "keywords": [
+        "beetroot",
+        "beet",
+        "shamandar",
+        "chukandar"
+      ]
+    },
+    {
+      "key": "pumpkin",
+      "category": "fruits_vegetables",
+      "unit": "kg",
+      "icon": "🎃",
+      "names": {
+        "en": "Pumpkin",
+        "ar": "يقطين",
+        "hi": "कद्दू",
+        "te": "గుమ్మడికాయ",
+        "ur": "کدو",
+        "fil": "Kalabasa",
+        "ne": "फर्सी",
+        "id": "Labu",
+        "si": "වට්ටක්කා"
+      },
+      "keywords": [
+        "pumpkin",
+        "yaqteen",
+        "kaddu",
+        "kalabasa",
+        "labu"
+      ]
+    },
+    {
+      "key": "mushroom",
+      "category": "fruits_vegetables",
+      "unit": "kg",
+      "icon": "🍄",
+      "names": {
+        "en": "Mushroom",
+        "ar": "فطر",
+        "hi": "मशरूम",
+        "te": "పుట్టగొడుగులు",
+        "ur": "کھمبی",
+        "fil": "Kabute",
+        "ne": "च्याउ",
+        "id": "Jamur",
+        "si": "බිම්මල්"
+      },
+      "keywords": [
+        "mushroom",
+        "futr",
+        "khumbi",
+        "kabute",
+        "jamur"
+      ]
+    },
+    {
+      "key": "basil",
+      "category": "fruits_vegetables",
+      "unit": "pcs",
+      "icon": "🌿",
+      "names": {
+        "en": "Basil",
+        "ar": "ريحان",
+        "hi": "तुलसी",
+        "te": "తులసి",
+        "ur": "ریحان",
+        "fil": "Basil",
+        "ne": "तुलसी",
+        "id": "Daun Kemangi",
+        "si": "බැසිල්"
+      },
+      "keywords": [
+        "basil",
+        "rihan",
+        "tulsi",
+        "kemangi"
+      ]
+    },
+    {
+      "key": "frozen_chicken",
+      "category": "frozen",
+      "unit": "kg",
+      "icon": "🐔",
+      "names": {
+        "en": "Frozen Chicken",
+        "ar": "دجاج مجمد",
+        "hi": "जमी हुई चिकन",
+        "te": "ఫ్రోజెన్ చికెన్",
+        "ur": "منجمد چکن",
+        "fil": "Frozen na Manok",
+        "ne": "फ्रोजन कुखुरा",
+        "id": "Ayam Beku",
+        "si": "ශීත කළ කුකුල් මස්"
+      },
+      "keywords": [
+        "frozen chicken",
+        "dajaj mujamad",
+        "ayam beku"
+      ]
+    },
+    {
+      "key": "frozen_shrimp",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🦐",
+      "names": {
+        "en": "Frozen Shrimp",
+        "ar": "ربيان مجمد",
+        "hi": "जमे हुए झींगे",
+        "te": "ఫ్రోజెన్ రొయ్యలు",
+        "ur": "منجمد جھینگا",
+        "fil": "Frozen na Hipon",
+        "ne": "फ्रोजन झिंगा",
+        "id": "Udang Beku",
+        "si": "ශීත කළ ඉස්සන්"
+      },
+      "keywords": [
+        "frozen shrimp",
+        "rubian mujamad",
+        "prawns",
+        "hipon",
+        "udang"
+      ]
+    },
+    {
+      "key": "frozen_kibbeh",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🥟",
+      "names": {
+        "en": "Frozen Kibbeh",
+        "ar": "كبة مجمدة",
+        "hi": "जमी हुई किब्बे",
+        "te": "ఫ్రోజెన్ కిబ్బే",
+        "ur": "منجمد کبہ",
+        "fil": "Frozen na Kibbeh",
+        "ne": "फ्रोजन किब्बे",
+        "id": "Kibbeh Beku",
+        "si": "ශීත කළ කිබ්බේ"
+      },
+      "keywords": [
+        "kibbeh",
+        "kibbe",
+        "kubba mujamad"
+      ]
+    },
+    {
+      "key": "frozen_spring_rolls",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🌯",
+      "names": {
+        "en": "Frozen Spring Rolls",
+        "ar": "سبرينغ رول مجمد",
+        "hi": "जमे हुए स्प्रिंग रोल",
+        "te": "ఫ్రోజెన్ స్ప్రింగ్ రోల్స్",
+        "ur": "منجمد اسپرنگ رول",
+        "fil": "Frozen na Spring Roll",
+        "ne": "फ्रोजन स्प्रिङ रोल",
+        "id": "Lumpia Beku",
+        "si": "ශීත කළ ස්ප්‍රින්ග් රෝල්"
+      },
+      "keywords": [
+        "spring roll",
+        "lumpia",
+        "spring rolls mujamad"
+      ]
+    },
+    {
+      "key": "frozen_burger",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🍔",
+      "names": {
+        "en": "Frozen Burger Patties",
+        "ar": "برجر مجمد",
+        "hi": "जमे हुए बर्गर पैटीज़",
+        "te": "ఫ్రోజెన్ బర్గర్ ప్యాటీ",
+        "ur": "منجمد برگر پیٹی",
+        "fil": "Frozen na Burger Patty",
+        "ne": "फ्रोजन बर्गर प्याटी",
+        "id": "Patty Burger Beku",
+        "si": "ශීත කළ බර්ගර් පැටිස්"
+      },
+      "keywords": [
+        "burger",
+        "burger patty",
+        "burger mujamad"
+      ]
+    },
+    {
+      "key": "frozen_pizza",
+      "category": "frozen",
+      "unit": "pcs",
+      "icon": "🍕",
+      "names": {
+        "en": "Frozen Pizza",
+        "ar": "بيتزا مجمدة",
+        "hi": "जमी हुई पिज़्ज़ा",
+        "te": "ఫ్రోజెన్ పిజ్జా",
+        "ur": "منجمد پیزا",
+        "fil": "Frozen na Pizza",
+        "ne": "फ्रोजन पिज्जा",
+        "id": "Pizza Beku",
+        "si": "ශීත කළ පීසා"
+      },
+      "keywords": [
+        "frozen pizza",
+        "pizza mujamad"
+      ]
+    },
+    {
+      "key": "frozen_okra",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🫛",
+      "names": {
+        "en": "Frozen Okra",
+        "ar": "بامية مجمدة",
+        "hi": "जमी हुई भिंडी",
+        "te": "ఫ్రోజెన్ బెండకాయ",
+        "ur": "منجمد بھنڈی",
+        "fil": "Frozen na Okra",
+        "ne": "फ्रोजन भिन्डी",
+        "id": "Okra Beku",
+        "si": "ශීත කළ බණ්ඩක්කා"
+      },
+      "keywords": [
+        "frozen okra",
+        "bamya mujamad"
+      ]
+    },
+    {
+      "key": "frozen_spinach",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🥬",
+      "names": {
+        "en": "Frozen Spinach",
+        "ar": "سبانخ مجمد",
+        "hi": "जमी हुई पालक",
+        "te": "ఫ్రోజెన్ పాలకూర",
+        "ur": "منجمد پالک",
+        "fil": "Frozen na Spinach",
+        "ne": "फ्रोजन पालुङ्गो",
+        "id": "Bayam Beku",
+        "si": "ශීත කළ නිවිති"
+      },
+      "keywords": [
+        "frozen spinach",
+        "sabanekh mujamad"
+      ]
+    },
+    {
+      "key": "frozen_corn",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🌽",
+      "names": {
+        "en": "Frozen Corn",
+        "ar": "ذرة مجمدة",
+        "hi": "जमी हुई मक्का",
+        "te": "ఫ్రోజెన్ మొక్కజొన్న",
+        "ur": "منجمد مکئی",
+        "fil": "Frozen na Mais",
+        "ne": "फ्रोजन मकै",
+        "id": "Jagung Beku",
+        "si": "ශීත කළ ඉරිඟු"
+      },
+      "keywords": [
+        "frozen corn",
+        "thira mujamad",
+        "sweet corn"
+      ]
+    },
+    {
+      "key": "frozen_mixed_berries",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🫐",
+      "names": {
+        "en": "Frozen Mixed Berries",
+        "ar": "توت مشكل مجمد",
+        "hi": "जमी हुई मिक्स बेरी",
+        "te": "ఫ్రోజెన్ బెర్రీలు",
+        "ur": "منجمد بیریز",
+        "fil": "Frozen na Berries",
+        "ne": "फ्रोजन बेरी",
+        "id": "Beri Campur Beku",
+        "si": "ශීත කළ බෙරි මිශ්‍රණය"
+      },
+      "keywords": [
+        "frozen berries",
+        "toot mujamad",
+        "mixed berries"
+      ]
+    },
+    {
+      "key": "frozen_pastry",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🥐",
+      "names": {
+        "en": "Frozen Puff Pastry",
+        "ar": "عجينة بف باستري مجمدة",
+        "hi": "जमी हुई पफ पेस्ट्री",
+        "te": "ఫ్రోజెన్ పఫ్ పేస్ట్రీ",
+        "ur": "منجمد پف پیسٹری",
+        "fil": "Frozen na Puff Pastry",
+        "ne": "फ्रोजन पफ पेस्ट्री",
+        "id": "Puff Pastry Beku",
+        "si": "ශීත කළ පෆ් පේස්ට්‍රි"
+      },
+      "keywords": [
+        "puff pastry",
+        "phyllo",
+        "ajeena mujamad"
+      ]
+    },
+    {
+      "key": "frozen_meatballs",
+      "category": "frozen",
+      "unit": "pack",
+      "icon": "🧆",
+      "names": {
+        "en": "Frozen Meatballs",
+        "ar": "كفتة مجمدة",
+        "hi": "जमे हुए कोफ्ता",
+        "te": "ఫ్రోజెన్ కుఫ్తా",
+        "ur": "منجمد کوفتہ",
+        "fil": "Frozen na Meatballs",
+        "ne": "फ्रोजन कोफ्ता",
+        "id": "Bakso Beku",
+        "si": "ශීත කළ මස් බෝල"
+      },
+      "keywords": [
+        "meatballs",
+        "kofta",
+        "kufta mujamad",
+        "bakso"
+      ]
     }
   ]
 }

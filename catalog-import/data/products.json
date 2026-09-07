@@ -1264,6 +1264,93 @@
       "type": "pet_food",
       "brand": "Pedigree",
       "size": "1.5 kg"
+    },
+    {
+      "type": "arugula"
+    },
+    {
+      "type": "parsley"
+    },
+    {
+      "type": "dill"
+    },
+    {
+      "type": "celery"
+    },
+    {
+      "type": "cauliflower"
+    },
+    {
+      "type": "broccoli"
+    },
+    {
+      "type": "chard"
+    },
+    {
+      "type": "molokhia_fresh"
+    },
+    {
+      "type": "green_onion"
+    },
+    {
+      "type": "okra"
+    },
+    {
+      "type": "green_beans"
+    },
+    {
+      "type": "turnip"
+    },
+    {
+      "type": "radish"
+    },
+    {
+      "type": "beetroot"
+    },
+    {
+      "type": "pumpkin"
+    },
+    {
+      "type": "mushroom"
+    },
+    {
+      "type": "basil"
+    },
+    {
+      "type": "frozen_chicken"
+    },
+    {
+      "type": "frozen_shrimp"
+    },
+    {
+      "type": "frozen_kibbeh"
+    },
+    {
+      "type": "frozen_spring_rolls"
+    },
+    {
+      "type": "frozen_burger"
+    },
+    {
+      "type": "frozen_pizza"
+    },
+    {
+      "type": "frozen_okra"
+    },
+    {
+      "type": "frozen_spinach"
+    },
+    {
+      "type": "frozen_corn"
+    },
+    {
+      "type": "frozen_mixed_berries"
+    },
+    {
+      "type": "frozen_pastry"
+    },
+    {
+      "type": "frozen_meatballs"
     }
   ]
 }

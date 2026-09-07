@@ -188,6 +188,9 @@ export interface Database {
           sort_order: number;
           created_at: string;
           updated_at: string;
+          // Set by catalog-import/, never by the app — idempotent-upsert
+          // key for a type[/brand[/size]] row (build-catalog.mjs).
+          natural_key: string | null;
         };
         Insert: Partial<Database["public"]["Tables"]["products"]["Row"]> & {
           category_id: string;
